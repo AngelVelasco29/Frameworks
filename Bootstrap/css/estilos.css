@@ -22,3 +22,22 @@
   margin-top: 10px;
   border-radius: 5px;
 }
+
+.imagen-contenido{
+  width: 250px;
+  padding: 20px;
+}
+
+.imagen-usuario{
+  width:80px;
+  height:80px;
+}
+.buscador{
+  width: 20px;
+}
+
+@media (max-width:800px) {
+  .imagen-contenido{
+    width:100%;
+  }
+}
