@@ -1,0 +1,24 @@
+.fondo-header{
+  background-color:pink;
+  border-radius: 5px;
+}
+.logo{
+  padding: 15px;
+  width: 250px;
+}
+
+.iconos{
+  width: 35px;
+  padding: 5px;
+}
+
+.nav{
+  background-color: orange;
+  font-size:1.5em;
+
+}
+.fondo-contenido{
+  background-color: purple;
+  margin-top: 10px;
+  border-radius: 5px;
+}
