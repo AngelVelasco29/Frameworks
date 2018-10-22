@@ -1,0 +1,32 @@
+body{
+  background-image: url(../imagen/fondo.jpg);
+}
+.titulo{
+  border-right: solid 1px black;
+}
+.titulo h1{
+  font-size: 1.6em;
+}
+.titulo h2{
+  font-size: 1.2em;
+  text-align: right;
+}
+.color-header{
+  background-color: #D2B48C;
+  padding: 10px;
+  border-bottom: solid 1px black;
+  opacity: 0.9;
+}
+.buscador{
+  margin-top: 30px;
+}
+
+.imagen-favoritos{
+  width: 100%;
+  margin:2px;
+  border: solid 2px white;
+}
+
+.primary{
+  opacity: 0.9;
+}
