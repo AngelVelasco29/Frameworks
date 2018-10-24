@@ -1,21 +1,23 @@
 body{
   background-image: url(../imagen/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .titulo{
   border-right: solid 1px black;
 }
 .titulo h1{
   font-size: 1.6em;
+  text-align: right;
 }
 .titulo h2{
   font-size: 1.2em;
   text-align: right;
 }
 .color-header{
-  background-color: #D2B48C;
+  background-color: rgba(210, 180, 140, 0.9);
   padding: 10px;
   border-bottom: solid 1px black;
-  opacity: 0.9;
 }
 .buscador{
   margin-top: 30px;
@@ -27,6 +29,20 @@ body{
   border: solid 2px white;
 }
 
-.primary{
-  opacity: 0.9;
+.callout{
+  background-color: rgba(135, 206, 235, 0.7);
+}
+
+.vertical a{
+  color: white;
+}
+.subtitulo{
+  color:white;
+}
+.avatar{
+  padding: 0px;
+}
+
+.menu{
+  height: 100%;
 }
