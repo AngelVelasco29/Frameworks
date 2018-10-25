@@ -1,0 +1,22 @@
+.logo{
+  width: 200px;
+  margin: 20px;
+}
+
+nav{
+  height: 110px;
+}
+
+h4{
+  margin: 0px;
+  font-size: 1.8em;
+}
+
+li{
+  margin: 0px;
+}
+
+a{
+  margin: 5px 5px !important;
+  padding: 0px 5px 0px 5px !important;
+}
