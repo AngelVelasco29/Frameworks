@@ -1,8 +1,10 @@
 body{
+
 background-image: url(../imagen/fondo.jpg);
 background-repeat: no-repeat;
 background-size:auto;
 background-attachment: fixed;
+overflow-y: auto;
 }
 
 .logo{
@@ -26,4 +28,24 @@ li{
 a{
   margin: 5px 5px !important;
   padding: 0px 5px 0px 5px !important;
+}
+
+.img-comentarios{
+  margin:10px;
+  padding: 15px;
+}
+
+.cabecera{
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.eliminar-borde{
+  box-shadow: none;
+}
+
+.borde{
+  border-bottom: solid 1px white !important;
 }
